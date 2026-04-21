@@ -1,6 +1,6 @@
 # Destine broker
 
-🌐 **Live:** [https://destine-broker-1776787573802.netlify.app](https://destine-broker-1776787573802.netlify.app)
+🌐 **Live:** [https://destine-broker-1776802649609.netlify.app](https://destine-broker-1776802649609.netlify.app)
 
 Site generat cu **SiteForge** — HTML5 + Tailwind CSS CDN + Vanilla JavaScript.
 Nu necesită build step — fișierele se servesc direct.
