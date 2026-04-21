@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Despre Noi | Destine broker</title>
+  <meta name="description" content="Află povestea Destine broker – locul 2 în România în intermedierea asigurărilor, cu peste 18 ani de experiență și 1 milion de clienți." />
+  <meta property="og:title" content="Despre Noi | Destine broker" />
+  <meta property="og:description" content="Află povestea Destine broker – locul 2 în România în intermedierea asigurărilor, cu peste 18 ani de experiență și 1 milion de clienți." />
+  <meta property="og:image" content="https://i.pinimg.com/1200x/57/9c/79/579c794e59c968ee4bbd2e570954ec44.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1E3A8A",
+            secondary: "#FACC15",
+            accent: "#152a6e",
+            light: "#f5f5f5",
+            dark: "#0c0e13",
+          },
+          backgroundImage: {
+            "dark-radial-right": "radial-gradient(at center right, #152a6e 10%, #020307 75%)",
+            "dark-radial-left": "radial-gradient(at center left, #152a6e 10%, #020307 75%)",
+            "dark-radial-top": "radial-gradient(at top center, #152a6e 10%, #020307 75%)",
+            "dark-radial-bottom": "radial-gradient(at bottom center, #152a6e 10%, #020307 75%)",
+            "dark-silver-radial": "radial-gradient(at center, #1a1a1a 10%, #2a2a2a 90%)",
+            "card-dark": "linear-gradient(180deg, #1a1f2b 0%, #0c0e13 100%)",
+            "card-dark-hover": "linear-gradient(180deg, #2a3040 0%, #1a1f2b 100%)",
+            "primary-blend": "linear-gradient(135deg, #1E3A8A 0%, #020307 100%)",
+            "accent-blend": "linear-gradient(135deg, #152a6e 0%, #000000 100%)",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-dark text-light">
+
+  <!-- NAVBAR -->
+  <nav id="main-navbar" class="navbar-glass fixed top-0 left-0 right-0 z-50 transition-transform duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html">
+          <img src="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" alt="Destine broker Logo" class="h-10 w-auto" />
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="text-white hover:text-secondary transition-colors font-medium">Acasă</a>
+          <a href="about.html" class="text-secondary font-semibold hover:text-secondary transition-colors">Despre</a>
+          <a href="services.html" class="text-white hover:text-secondary transition-colors font-medium">Servicii</a>
+          <a href="contact.html" class="text-white hover:text-secondary transition-colors font-medium">Contact</a>
+          <a href="contact.html" class="btn-secondary text-sm px-5 py-2 rounded-lg">Obține ofertă</a>
+        </div>
+        <button id="hamburger-btn" class="md:hidden text-white focus:outline-none" aria-label="Meniu" aria-expanded="false">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="md:hidden pb-4">
+        <a href="index.html" class="block py-2 px-3 text-white hover:text-secondary">Acasă</a>
+        <a href="about.html" class="block py-2 px-3 text-secondary font-semibold">Despre</a>
+        <a href="services.html" class="block py-2 px-3 text-white hover:text-secondary">Servicii</a>
+        <a href="contact.html" class="block py-2 px-3 text-white hover:text-secondary">Contact</a>
+        <a href="contact.html" class="block mt-2 mx-3 btn-secondary text-center text-sm rounded-lg">Obține ofertă</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-5xl md:text-6xl font-black text-white mb-4 fade-in">Despre <span class="text-secondary">Noi</span></h1>
+      <p class="text-white/70 text-xl max-w-2xl mx-auto fade-in">O companie construită pe încredere, profesionalism și dedicare față de clienți, de peste 18 ani.</p>
+    </div>
+  </header>
+
+  <!-- OUR STORY -->
+  <section class="py-20 bg-dark-radial-top">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div class="fade-in">
+          <span class="text-secondary text-sm font-bold uppercase tracking-widest mb-3 block">Povestea noastră</span>
+          <h2 class="text-4xl font-black text-white mb-6">De la un vis la liderul pieței de brokeraj</h2>
+          <p class="text-white/70 leading-relaxed mb-5">
+            Destine Broker a luat ființă în 2006, dintr-o dorință simplă dar puternică: de a oferi românilor accesul la produse de asigurare corecte, transparente și adaptate nevoilor reale. Fondatorii companiei, cu o experiență solidă în sectorul financiar, au identificat o oportunitate uriașă pe o piață în plină creștere.
+          </p>
+          <p class="text-white/70 leading-relaxed mb-5">
+            Primii ani au adus provocări considerabile, dar echipa tânără și determinată a reușit să câștige încrederea clienților prin profesionalism și onestitate. Rând pe rând, portofoliul de parteneri asigurători s-a extins, acoperind toate tipurile de produse de pe piața românească.
+          </p>
+          <p class="text-white/70 leading-relaxed">
+            Astăzi, Destine Broker ocupă locul 2 în România, cu peste 1 milion de clienți activi, o rețea de 7.000 de colaboratori și prezență în toate cele 41 de județe. Suntem mândri că am protejat milioane de familii și afaceri de-a lungul anilor, rămânând fideli valorilor cu care am pornit la drum.
+          </p>
+        </div>
+        <div class="fade-in">
+          <div class="grid grid-cols-2 gap-6">
+            <div class="card-dark-bg p-6 text-center">
+              <div class="text-4xl font-black text-secondary mb-2">2006</div>
+              <p class="text-white/60 text-sm">Anul fondării</p>
+            </div>
+            <div class="card-dark-bg p-6 text-center">
+              <div class="text-4xl font-black text-secondary mb-2">#2</div>
+              <p class="text-white/60 text-sm">În România</p>
+            </div>
+            <div class="card-dark-bg p-6 text-center">
+              <div class="text-4xl font-black text-secondary mb-2">18+</div>
+              <p class="text-white/60 text-sm">Ani experiență</p>
+            </div>
+            <div class="card-dark-bg p-6 text-center">
+              <div class="text-4xl font-black text-secondary mb-2">42</div>
+              <p class="text-white/60 text-sm">Județe acoperite</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION & VALUES -->
+  <section class="py-20 bg-dark-radial-bottom">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14 fade-in">
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-4">Misiune, Viziune & Valori</h2>
+        <p class="text-white/60 text-lg">Principiile care ghidează fiecare decizie pe care o luăm.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card-dark-bg p-8 text-center fade-in">
+          <div class="w-16 h-16 rounded-full bg-primary mx-auto mb-6 flex items-center justify-center text-3xl">🎯</div>
+          <h3 class="text-xl font-bold text-secondary mb-4">Misiunea noastră</h3>
+          <p class="text-white/70 leading-relaxed">Să protejăm oamenii și afacerile din România oferind soluții de asigurare accesibile, transparente și personalizate, printr-o echipă de consultanți dedicați și profesioniști.</p>
+        </div>
+        <div class="card-dark-bg p-8 text-center fade-in">
+          <div class="w-16 h-16 rounded-full bg-secondary mx-auto mb-6 flex items-center justify-center text-3xl">🔭</div>
+          <h3 class="text-xl font-bold text-secondary mb-4">Viziunea noastră</h3>
+          <p class="text-white/70 leading-relaxed">Să devenim liderul absolut al pieței de brokeraj de asigurări din România, extinzând continuu rețeaua de colaboratori și gama de produse disponibile clienților noștri.</p>
+        </div>
+        <div class="card-dark-bg p-8 text-center fade-in">
+          <div class="w-16 h-16 rounded-full bg-accent mx-auto mb-6 flex items-center justify-center text-3xl">💎</div>
+          <h3 class="text-xl font-bold text-secondary mb-4">Valorile noastre</h3>
+          <p class="text-white/70 leading-relaxed">Integritate în toate acțiunile noastre. Transparență față de clienți și parteneri. Inovație continuă. Responsabilitate socială și angajament pe termen lung față de comunitate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="py-20 bg-dark-radial-top">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14 fade-in">
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-4">Echipa noastră</h2>
+        <p class="text-white/60 text-lg max-w-xl mx-auto">Profesioniști cu experiență vastă în asigurări, dedicați succesului tău.</p>
+      </div>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="card-dark-bg p-6 text-center fade-in">
+          <div class="w-20 h-20 rounded-full bg-primary-blend mx-auto mb-4 flex items-center justify-center text-3xl font-black text-white">SP</div>
+          <h3 class="text-white font-bold text-lg mb-1">Ștefan Puntea</h3>
+          <p class="text-secondary text-sm font-semibold mb-3">Director General</p>
+          <p class="text-white/55 text-sm leading-relaxed">Fondator cu peste 20 de ani în domeniu. Vizionar și lider dedicat creșterii sustenabile a companiei.</p>
+        </div>
+        <div class="card-dark-bg p-6 text-center fade-in">
+          <div class="w-20 h-20 rounded-full bg-accent-blend mx-auto mb-4 flex items-center justify-center text-3xl font-black text-white">MC</div>
+          <h3 class="text-white font-bold text-lg mb-1">Maria Constantin</h3>
+          <p class="text-secondary text-sm font-semibold mb-3">Director Vânzări</p>
+          <p class="text-white/55 text-sm leading-relaxed">Expertă în strategii de vânzare și dezvoltarea rețelei de colaboratori la nivel național.</p>
+        </div>
+        <div class="card-dark-bg p-6 text-center fade-in">
+          <div class="w-20 h-20 rounded-full bg-primary-blend mx-auto mb-4 flex items-center justify-center text-3xl font-black text-white">AI</div>
+          <h3 class="text-white font-bold text-lg mb-1">Alexandru Ionescu</h3>
+          <p class="text-secondary text-sm font-semibold mb-3">Director Tehnic</p>
+          <p class="text-white/55 text-sm leading-relaxed">Specialist în produse de asigurare complexe și gestiunea dosarelor de daune.</p>
+        </div>
+        <div class="card-dark-bg p-6 text-center fade-in">
+          <div class="w-20 h-20 rounded-full bg-accent-blend mx-auto mb-4 flex items-center justify-center text-3xl font-black text-white">LM</div>
+          <h3 class="text-white font-bold text-lg mb-1">Laura Marin</h3>
+          <p class="text-secondary text-sm font-semibold mb-3">Director Relații Clienți</p>
+          <p class="text-white/55 text-sm leading-relaxed">Coordonează echipa de suport și asigură satisfacția optimă a fiecărui client.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="py-20 bg-dark-radial-bottom">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14 fade-in">
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-4">Evoluția noastră</h2>
+        <p class="text-white/60 text-lg">Momente cheie care ne-au definit parcursul.</p>
+      </div>
+      <div class="relative">
+        <div class="space-y-8">
+          <div class="flex gap-6 items-start fade-in">
+            <div class="flex-shrink-0 w-16 text-right">
+              <span class="text-secondary font-bold text-sm">2006</span>
+            </div>
+            <div class="flex-shrink-0 w-4 flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-secondary mt-1"></div>
+              <div class="w-0.5 h-full bg-primary/40 mt-2"></div>
+            </div>
+            <div class="card-dark-bg p-5 flex-1 rounded-xl mb-2">
+              <h3 class="text-white font-bold mb-1">Înființarea companiei</h3>
+              <p class="text-white/60 text-sm">Destine Broker se înregistrează oficial și obține autorizația ASF. Primele 500 de polițe intermediate.</p>
+            </div>
+          </div>
+          <div class="flex gap-6 items-start fade-in">
+            <div class="flex-shrink-0 w-16 text-right">
+              <span class="text-secondary font-bold text-sm">2009</span>
+            </div>
+            <div class="flex-shrink-0 w-4 flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-secondary mt-1"></div>
+              <div class="w-0.5 h-full bg-primary/40 mt-2"></div>
+            </div>
+            <div class="card-dark-bg p-5 flex-1 rounded-xl mb-2">
+              <h3 class="text-white font-bold mb-1">Extindere națională</h3>
+              <p class="text-white/60 text-sm">Deschiderea primelor 10 birouri regionale și constituirea rețelei de colaboratori independenți.</p>
+            </div>
+          </div>
+          <div class="flex gap-6 items-start fade-in">
+            <div class="flex-shrink-0 w-16 text-right">
+              <span class="text-secondary font-bold text-sm">2013</span>
+            </div>
+            <div class="flex-shrink-0 w-4 flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-secondary mt-1"></div>
+              <div class="w-0.5 h-full bg-primary/40 mt-2"></div>
+            </div>
+            <div class="card-dark-bg p-5 flex-1 rounded-xl mb-2">
+              <h3 class="text-white font-bold mb-1">100.000 de clienți</h3>
+              <p class="text-white/60 text-sm">O piatră de hotar importantă – 100.000 de clienți activi și partenerii cu 8 companii de asigurare de top.</p>
+            </div>
+          </div>
+          <div class="flex gap-6 items-start fade-in">
+            <div class="flex-shrink-0 w-16 text-right">
+              <span class="text-secondary font-bold text-sm">2017</span>
+            </div>
+            <div class="flex-shrink-0 w-4 flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-secondary mt-1"></div>
+              <div class="w-0.5 h-full bg-primary/40 mt-2"></div>
+            </div>
+            <div class="card-dark-bg p-5 flex-1 rounded-xl mb-2">
+              <h3 class="text-white font-bold mb-1">Premiu național de excelență</h3>
+              <p class="text-white/60 text-sm">Destine Broker primește premiul „Cel mai dinamic broker al anului" la Gala Asigurărilor din România.</p>
+            </div>
+          </div>
+          <div class="flex gap-6 items-start fade-in">
+            <div class="flex-shrink-0 w-16 text-right">
+              <span class="text-secondary font-bold text-sm">2021</span>
+            </div>
+            <div class="flex-shrink-0 w-4 flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-secondary mt-1"></div>
+              <div class="w-0.5 h-full bg-primary/40 mt-2"></div>
+            </div>
+            <div class="card-dark-bg p-5 flex-1 rounded-xl mb-2">
+              <h3 class="text-white font-bold mb-1">500.000 de clienți & digitalizare</h3>
+              <p class="text-white/60 text-sm">Lansarea platformei digitale de gestiune a polițelor și depășirea pragului de 500.000 clienți activi.</p>
+            </div>
+          </div>
+          <div class="flex gap-6 items-start fade-in">
+            <div class="flex-shrink-0 w-16 text-right">
+              <span class="text-secondary font-bold text-sm">2024</span>
+            </div>
+            <div class="flex-shrink-0 w-4 flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-secondary mt-1"></div>
+            </div>
+            <div class="card-dark-bg p-5 flex-1 rounded-xl">
+              <h3 class="text-white font-bold mb-1">Locul 2 în România</h3>
+              <p class="text-white/60 text-sm">Peste 1 milion de clienți, 7.000 de colaboratori și prezență în toate județele țării. Continuăm să creștem!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="py-16 bg-dark-radial-top">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in">
+      <h2 class="text-3xl font-black text-white mb-8">Certificări & Autorizații</h2>
+      <div class="flex flex-wrap justify-center gap-8">
+        <div class="card-dark-bg px-8 py-5 rounded-xl">
+          <p class="text-secondary font-bold text-lg">ASF</p>
+          <p class="text-white/50 text-xs">Autorizat de Autoritatea de Supraveghere Financiară</p>
+        </div>
+        <div class="card-dark-bg px-8 py-5 rounded-xl">
+          <p class="text-secondary font-bold text-lg">ISO 9001:2015</p>
+          <p class="text-white/50 text-xs">Certificat de management al calității</p>
+        </div>
+        <div class="card-dark-bg px-8 py-5 rounded-xl">
+          <p class="text-secondary font-bold text-lg">BIPAR</p>
+          <p class="text-white/50 text-xs">Membro al Federației Europene a Brokerilor</p>
+        </div>
+        <div class="card-dark-bg px-8 py-5 rounded-xl">
+          <p class="text-secondary font-bold text-lg">PRBAR</p>
+          <p class="text-white/50 text-xs">Membro al Asociației Brokerilor din România</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark-radial-bottom pt-16 pb-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+        <div>
+          <img src="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" alt="Destine broker Logo" class="h-10 w-auto mb-4" />
+          <p class="text-white/50 text-sm leading-relaxed">Broker de asigurări de rang național, locul 2 în România. Protejăm oamenii și afacerile cu soluții personalizate.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Navigare rapidă</h4>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Acasă</a></li>
+            <li><a href="about.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Despre noi</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Servicii</a></li>
+            <li><a href="contact.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Servicii</h4>
+          <ul class="space-y-2">
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Viață</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări Auto</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Proprietate</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Sănătate</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări pentru Afaceri</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Contact & Social</h4>
+          <ul class="space-y-2 mb-5">
+            <li class="text-white/60 text-sm">📍 Str Rulmentului, nr 4a</li>
+            <li><a href="tel:0746685556" class="text-white/60 hover:text-secondary text-sm transition-colors">📞 0746 685 556</a></li>
+            <li><a href="mailto:Stefan.puntea@destine-broker.ro" class="text-white/60 hover:text-secondary text-sm transition-colors break-all">✉️ Stefan.puntea@destine-broker.ro</a></li>
+            <li class="text-white/60 text-sm">🕐 Luni-Vineri 09:00 – 17:00</li>
+          </ul>
+          <div class="flex gap-3">
+            <a href="https://www.facebook.com/destinebroker/" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full flex items-center justify-center hover:scale-110 transition-transform" style="background:#1877F2">
+              <svg class="w-4 h-4" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-white/40 text-xs">© 2024 Destine broker. Toate drepturile rezervate.</p>
+        <div class="flex flex-wrap gap-4 text-xs">
+          <a href="gdpr.html" class="text-white/40 hover:text-secondary transition-colors">GDPR</a>
+          <a href="cookies.html" class="text-white/40 hover:text-secondary transition-colors">Cookies</a>
+          <a href="termeni.html" class="text-white/40 hover:text-secondary transition-colors">Termeni și Condiții</a>
+          <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer" class="text-white/40 hover:text-secondary transition-colors">A.N.P.C</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-actions">
+    <a href="tel:0746685556" class="fab-btn fab-phone" aria-label="Sună acum">
+      <svg class="w-5 h-5" fill="white" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      <span class="fab-tooltip">Sună acum</span>
+    </a>
+    <a href="https://wa.me/0746685556" target="_blank" rel="noopener noreferrer" class="fab-btn fab-whatsapp" aria-label="WhatsApp">
+      <svg class="w-5 h-5" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="fab-tooltip">WhatsApp</span>
+    </a>
+  </div>
+
+  <button id="back-to-top" aria-label="Înapoi sus">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+  </button>
+
+  <script src="main.js"></script>
+
+<!-- SiteForge Contact Form -->
+<script>
+(function(){
+  var WH="https://n8n.midasplatform.ro/webhook/siteforge-contact";
+  var CT="eyJwYXlsb2FkIjoie1wiZW1haWxcIjpcInB1bnRlYXN0ZWZhbkBnbWFpbC5jb21cIixcImJ1c2luZXNzTmFtZVwiOlwiRGVzdGluZSBicm9rZXJcIixcInNpdGVJZFwiOlwiNTU2YmU5NTYtNzlkNS00ZDgxLWI0YzktNTczNjRmN2M1NDRiXCJ9IiwiaG1hYyI6IjFmYzVkMTg1YTg5NjAwMjJhZTI3YjU0M2ZkOTY1ODRlM2JiNzhiZTdhMGIwMWE1MDQ5Y2M1NDdmZTI3ZjdlZmUifQ==";
+  function init(){
+    document.querySelectorAll('form').forEach(function(form){
+      if(!form.querySelector('input[type="email"],input[name="email"]'))return;
+      if(form.dataset.sfDone)return;
+      form.dataset.sfDone='1';
+      form.dataset.sfTime=Date.now().toString();
+      form.addEventListener('submit',function(e){
+        e.preventDefault();
+        var fd=new FormData(form),data={submission_time:form.dataset.sfTime||Date.now().toString(),contactToken:CT};
+        fd.forEach(function(v,k){data[k]=v;});
+        // Fallback: collect by input type when name attributes are missing
+        if(!data.name){var ni=form.querySelector('input[name*="name"],input[name*="num"],input[type="text"]');if(ni&&ni.value.trim())data.name=ni.value.trim();}
+        if(!data.email){var ei=form.querySelector('input[type="email"]');if(ei&&ei.value.trim())data.email=ei.value.trim();}
+        if(!data.phone&&!data.telefon){var pi=form.querySelector('input[type="tel"]');if(pi&&pi.value.trim())data.phone=pi.value.trim();}
+        if(!data.message&&!data.mesaj){var ta=form.querySelector('textarea');if(ta&&ta.value.trim())data.message=ta.value.trim();}
+        var btn=form.querySelector('button[type="submit"],button:last-of-type');
+        var orig=btn?btn.innerHTML:'';
+        if(btn){btn.disabled=true;btn.innerHTML='Se trimite...';}
+        fetch(WH,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+          .then(function(r){return r.json();})
+          .then(function(res){
+            if(res.success){
+              form.innerHTML='<div style="text-align:center;padding:2rem;color:#10b981;font-size:1.1rem">✓ '+(res.message||'Mesaj trimis!')+'</div>';
+            }else{
+              if(btn){btn.disabled=false;btn.innerHTML=orig;}
+              alert(res.message||'Eroare la trimitere. Încercați din nou.');
+            }
+          })
+          .catch(function(){
+            if(btn){btn.disabled=false;btn.innerHTML=orig;}
+            alert('Eroare de conexiune. Verificați internetul și încercați din nou.');
+          });
+      });
+    });
+  }
+  document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
+})();
+</script>
+</body>
+</html>

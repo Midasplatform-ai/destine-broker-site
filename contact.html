@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Destine broker</title>
+  <meta name="description" content="Contactează Destine broker pentru o ofertă personalizată de asigurare. Suntem disponibili luni-vineri, 09:00–17:00, la telefon sau email." />
+  <meta property="og:title" content="Contact | Destine broker" />
+  <meta property="og:description" content="Contactează Destine broker pentru o ofertă personalizată de asigurare. Suntem disponibili luni-vineri, 09:00–17:00, la telefon sau email." />
+  <meta property="og:image" content="https://i.pinimg.com/1200x/57/9c/79/579c794e59c968ee4bbd2e570954ec44.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1E3A8A",
+            secondary: "#FACC15",
+            accent: "#152a6e",
+            light: "#f5f5f5",
+            dark: "#0c0e13",
+          },
+          backgroundImage: {
+            "dark-radial-right": "radial-gradient(at center right, #152a6e 10%, #020307 75%)",
+            "dark-radial-left": "radial-gradient(at center left, #152a6e 10%, #020307 75%)",
+            "dark-radial-top": "radial-gradient(at top center, #152a6e 10%, #020307 75%)",
+            "dark-radial-bottom": "radial-gradient(at bottom center, #152a6e 10%, #020307 75%)",
+            "dark-silver-radial": "radial-gradient(at center, #1a1a1a 10%, #2a2a2a 90%)",
+            "card-dark": "linear-gradient(180deg, #1a1f2b 0%, #0c0e13 100%)",
+            "card-dark-hover": "linear-gradient(180deg, #2a3040 0%, #1a1f2b 100%)",
+            "primary-blend": "linear-gradient(135deg, #1E3A8A 0%, #020307 100%)",
+            "accent-blend": "linear-gradient(135deg, #152a6e 0%, #000000 100%)",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-dark text-light">
+
+  <!-- NAVBAR -->
+  <nav id="main-navbar" class="navbar-glass fixed top-0 left-0 right-0 z-50 transition-transform duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html">
+          <img src="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" alt="Destine broker Logo" class="h-10 w-auto" />
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="text-white hover:text-secondary transition-colors font-medium">Acasă</a>
+          <a href="about.html" class="text-white hover:text-secondary transition-colors font-medium">Despre</a>
+          <a href="services.html" class="text-white hover:text-secondary transition-colors font-medium">Servicii</a>
+          <a href="contact.html" class="text-secondary font-semibold hover:text-secondary transition-colors">Contact</a>
+          <a href="contact.html" class="btn-secondary text-sm px-5 py-2 rounded-lg">Obține ofertă</a>
+        </div>
+        <button id="hamburger-btn" class="md:hidden text-white focus:outline-none" aria-label="Meniu" aria-expanded="false">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="md:hidden pb-4">
+        <a href="index.html" class="block py-2 px-3 text-white hover:text-secondary">Acasă</a>
+        <a href="about.html" class="block py-2 px-3 text-white hover:text-secondary">Despre</a>
+        <a href="services.html" class="block py-2 px-3 text-white hover:text-secondary">Servicii</a>
+        <a href="contact.html" class="block py-2 px-3 text-secondary font-semibold">Contact</a>
+        <a href="contact.html" class="block mt-2 mx-3 btn-secondary text-center text-sm rounded-lg">Obține ofertă</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-5xl md:text-6xl font-black text-white mb-4 fade-in">Contactează-ne</h1>
+      <p class="text-white/70 text-xl max-w-2xl mx-auto fade-in">Suntem gata să îți răspundem la orice întrebare și să îți pregătim o ofertă personalizată, gratuit.</p>
+    </div>
+  </header>
+
+  <!-- CONTACT FORM + INFO -->
+  <section class="py-20 bg-dark-radial-top">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16">
+
+        <!-- Form -->
+        <div class="fade-in">
+          <h2 class="text-3xl font-black text-white mb-3">Trimite-ne un mesaj</h2>
+          <p class="text-white/55 mb-8">Completează formularul și un consultant te va contacta în cel mai scurt timp.</p>
+
+          <form id="contact-form" class="space-y-5">
+            <div>
+              <label class="block text-white/70 text-sm font-medium mb-2" for="contact-name">Nume complet *</label>
+              <input type="text" id="contact-name" name="name" required placeholder="Ion Popescu" class="form-input" />
+            </div>
+            <div>
+              <label class="block text-white/70 text-sm font-medium mb-2" for="contact-email">Adresă email *</label>
+              <input type="email" id="contact-email" name="email" required placeholder="ion.popescu@email.ro" class="form-input" />
+            </div>
+            <div>
+              <label class="block text-white/70 text-sm font-medium mb-2" for="contact-phone">Număr de telefon</label>
+              <input type="tel" id="contact-phone" name="phone" placeholder="07XX XXX XXX" class="form-input" />
+            </div>
+            <div>
+              <label class="block text-white/70 text-sm font-medium mb-2" for="contact-message">Mesajul tău *</label>
+              <textarea id="contact-message" name="message" required rows="5" placeholder="Descrie pe scurt nevoia ta de asigurare..." class="form-input resize-none"></textarea>
+            </div>
+            <div class="flex items-start gap-3">
+              <input type="checkbox" id="gdpr-consent" name="gdpr" required class="mt-1 accent-primary" />
+              <label for="gdpr-consent" class="text-white/55 text-sm leading-relaxed">Sunt de acord cu procesarea datelor mele personale conform <a href="gdpr.html" class="text-secondary hover:underline">Politicii de Confidențialitate</a>. *</label>
+            </div>
+            <button type="submit" class="btn-secondary w-full py-4 rounded-lg font-bold text-lg">Trimite mesajul</button>
+          </form>
+
+          <div id="form-success" class="hidden mt-6 card-dark-bg rounded-2xl p-8 text-center border border-secondary/30">
+            <div class="text-5xl mb-4">✅</div>
+            <h3 class="text-white text-2xl font-black mb-3">Mesaj trimis cu succes!</h3>
+            <p class="text-white/65 leading-relaxed">Mulțumim pentru mesaj! Un consultant Destine Broker te va contacta în cel mai scurt timp, în intervalul orar Luni-Vineri, 09:00–17:00.</p>
+            <a href="index.html" class="btn-primary mt-5 inline-block px-8 py-3 rounded-lg">Înapoi la pagina principală</a>
+          </div>
+        </div>
+
+        <!-- Contact Info Cards -->
+        <div class="space-y-6 fade-in">
+          <h2 class="text-3xl font-black text-white mb-3">Informații de contact</h2>
+          <div class="card-dark-bg p-6 rounded-xl flex items-start gap-4">
+            <div class="text-3xl">📍</div>
+            <div>
+              <h3 class="text-white font-bold mb-1">Adresă</h3>
+              <p class="text-white/60 text-sm">Str Rulmentului, nr 4a<br/>România</p>
+            </div>
+          </div>
+          <div class="card-dark-bg p-6 rounded-xl flex items-start gap-4">
+            <div class="text-3xl">📞</div>
+            <div>
+              <h3 class="text-white font-bold mb-1">Telefon</h3>
+              <a href="tel:0746685556" class="text-secondary font-semibold hover:underline">0746 685 556</a>
+            </div>
+          </div>
+          <div class="card-dark-bg p-6 rounded-xl flex items-start gap-4">
+            <div class="text-3xl">✉️</div>
+            <div>
+              <h3 class="text-white font-bold mb-1">Email</h3>
+              <a href="mailto:Stefan.puntea@destine-broker.ro" class="text-secondary font-semibold hover:underline break-all text-sm">Stefan.puntea@destine-broker.ro</a>
+            </div>
+          </div>
+          <div class="card-dark-bg p-6 rounded-xl flex items-start gap-4">
+            <div class="text-3xl">🕐</div>
+            <div>
+              <h3 class="text-white font-bold mb-1">Program</h3>
+              <p class="text-white/60 text-sm">Luni – Vineri: 09:00 – 17:00<br/>Sâmbătă – Duminică: Închis</p>
+            </div>
+          </div>
+          <!-- Social -->
+          <div class="card-dark-bg p-6 rounded-xl">
+            <h3 class="text-white font-bold mb-4">Urmărește-ne pe social media</h3>
+            <div class="flex gap-4">
+              <a href="https://www.facebook.com/destinebroker/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 px-5 py-3 rounded-xl hover:scale-105 transition-transform" style="background:#1877F2">
+                <svg class="w-5 h-5" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                <span class="text-white font-semibold text-sm">Facebook</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="py-16 bg-dark-radial-bottom">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 fade-in">
+      <h2 class="text-3xl font-black text-white mb-8 text-center">Locația noastră</h2>
+      <div class="map-placeholder rounded-2xl overflow-hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.3!2d26.1!3d44.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zStr+Rulmentului+nr+4a!5e0!3m2!1sro!2sro!4v1234567890"
+          width="100%"
+          height="350"
+          style="border:0; filter: invert(90%) hue-rotate(180deg);"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Locația Destine Broker"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CONTACT US -->
+  <section class="py-16 bg-dark-radial-top">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 fade-in">
+        <h2 class="text-3xl font-black text-white mb-3">De ce să ne contactezi?</h2>
+        <p class="text-white/55">Avantajele unei consultații cu Destine Broker</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card-dark-bg p-7 text-center fade-in">
+          <div class="text-4xl mb-4">🆓</div>
+          <h3 class="text-white font-bold text-lg mb-2">Consultanță 100% gratuită</h3>
+          <p class="text-white/55 text-sm leading-relaxed">Nu plătești nimic pentru analiza nevoilor tale și pentru ofertele comparative pe care le primești.</p>
+        </div>
+        <div class="card-dark-bg p-7 text-center fade-in">
+          <div class="text-4xl mb-4">⚡</div>
+          <h3 class="text-white font-bold text-lg mb-2">Răspuns rapid</h3>
+          <p class="text-white/55 text-sm leading-relaxed">Consultanții noștri te contactează în mai puțin de 24 de ore de la trimiterea cererii.</p>
+        </div>
+        <div class="card-dark-bg p-7 text-center fade-in">
+          <div class="text-4xl mb-4">🎯</div>
+          <h3 class="text-white font-bold text-lg mb-2">Soluție personalizată</h3>
+          <p class="text-white/55 text-sm leading-relaxed">Fiecare ofertă este adaptată specificului nevoilor și bugetului tău, fără soluții standard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark-radial-bottom pt-16 pb-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+        <div>
+          <img src="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" alt="Destine broker Logo" class="h-10 w-auto mb-4" />
+          <p class="text-white/50 text-sm leading-relaxed">Broker de asigurări de rang național, locul 2 în România. Protejăm oamenii și afacerile cu soluții personalizate.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Navigare rapidă</h4>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Acasă</a></li>
+            <li><a href="about.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Despre noi</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Servicii</a></li>
+            <li><a href="contact.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Servicii</h4>
+          <ul class="space-y-2">
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Viață</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări Auto</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Proprietate</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Sănătate</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări pentru Afaceri</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Contact & Social</h4>
+          <ul class="space-y-2 mb-5">
+            <li class="text-white/60 text-sm">📍 Str Rulmentului, nr 4a</li>
+            <li><a href="tel:0746685556" class="text-white/60 hover:text-secondary text-sm transition-colors">📞 0746 685 556</a></li>
+            <li><a href="mailto:Stefan.puntea@destine-broker.ro" class="text-white/60 hover:text-secondary text-sm transition-colors break-all">✉️ Stefan.puntea@destine-broker.ro</a></li>
+            <li class="text-white/60 text-sm">🕐 Luni-Vineri 09:00 – 17:00</li>
+          </ul>
+          <div class="flex gap-3">
+            <a href="https://www.facebook.com/destinebroker/" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full flex items-center justify-center hover:scale-110 transition-transform" style="background:#1877F2">
+              <svg class="w-4 h-4" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-white/40 text-xs">© 2024 Destine broker. Toate drepturile rezervate.</p>
+        <div class="flex flex-wrap gap-4 text-xs">
+          <a href="gdpr.html" class="text-white/40 hover:text-secondary transition-colors">GDPR</a>
+          <a href="cookies.html" class="text-white/40 hover:text-secondary transition-colors">Cookies</a>
+          <a href="termeni.html" class="text-white/40 hover:text-secondary transition-colors">Termeni și Condiții</a>
+          <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer" class="text-white/40 hover:text-secondary transition-colors">A.N.P.C</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-actions">
+    <a href="tel:0746685556" class="fab-btn fab-phone" aria-label="Sună acum">
+      <svg class="w-5 h-5" fill="white" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      <span class="fab-tooltip">Sună acum</span>
+    </a>
+    <a href="https://wa.me/0746685556" target="_blank" rel="noopener noreferrer" class="fab-btn fab-whatsapp" aria-label="WhatsApp">
+      <svg class="w-5 h-5" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="fab-tooltip">WhatsApp</span>
+    </a>
+  </div>
+
+  <button id="back-to-top" aria-label="Înapoi sus">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+  </button>
+
+  <script src="main.js"></script>
+
+<!-- SiteForge Contact Form -->
+<script>
+(function(){
+  var WH="https://n8n.midasplatform.ro/webhook/siteforge-contact";
+  var CT="eyJwYXlsb2FkIjoie1wiZW1haWxcIjpcInB1bnRlYXN0ZWZhbkBnbWFpbC5jb21cIixcImJ1c2luZXNzTmFtZVwiOlwiRGVzdGluZSBicm9rZXJcIixcInNpdGVJZFwiOlwiNTU2YmU5NTYtNzlkNS00ZDgxLWI0YzktNTczNjRmN2M1NDRiXCJ9IiwiaG1hYyI6IjFmYzVkMTg1YTg5NjAwMjJhZTI3YjU0M2ZkOTY1ODRlM2JiNzhiZTdhMGIwMWE1MDQ5Y2M1NDdmZTI3ZjdlZmUifQ==";
+  function init(){
+    document.querySelectorAll('form').forEach(function(form){
+      if(!form.querySelector('input[type="email"],input[name="email"]'))return;
+      if(form.dataset.sfDone)return;
+      form.dataset.sfDone='1';
+      form.dataset.sfTime=Date.now().toString();
+      form.addEventListener('submit',function(e){
+        e.preventDefault();
+        var fd=new FormData(form),data={submission_time:form.dataset.sfTime||Date.now().toString(),contactToken:CT};
+        fd.forEach(function(v,k){data[k]=v;});
+        // Fallback: collect by input type when name attributes are missing
+        if(!data.name){var ni=form.querySelector('input[name*="name"],input[name*="num"],input[type="text"]');if(ni&&ni.value.trim())data.name=ni.value.trim();}
+        if(!data.email){var ei=form.querySelector('input[type="email"]');if(ei&&ei.value.trim())data.email=ei.value.trim();}
+        if(!data.phone&&!data.telefon){var pi=form.querySelector('input[type="tel"]');if(pi&&pi.value.trim())data.phone=pi.value.trim();}
+        if(!data.message&&!data.mesaj){var ta=form.querySelector('textarea');if(ta&&ta.value.trim())data.message=ta.value.trim();}
+        var btn=form.querySelector('button[type="submit"],button:last-of-type');
+        var orig=btn?btn.innerHTML:'';
+        if(btn){btn.disabled=true;btn.innerHTML='Se trimite...';}
+        fetch(WH,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+          .then(function(r){return r.json();})
+          .then(function(res){
+            if(res.success){
+              form.innerHTML='<div style="text-align:center;padding:2rem;color:#10b981;font-size:1.1rem">✓ '+(res.message||'Mesaj trimis!')+'</div>';
+            }else{
+              if(btn){btn.disabled=false;btn.innerHTML=orig;}
+              alert(res.message||'Eroare la trimitere. Încercați din nou.');
+            }
+          })
+          .catch(function(){
+            if(btn){btn.disabled=false;btn.innerHTML=orig;}
+            alert('Eroare de conexiune. Verificați internetul și încercați din nou.');
+          });
+      });
+    });
+  }
+  document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
+})();
+</script>
+</body>
+</html>

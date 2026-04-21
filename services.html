@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicii | Destine broker</title>
+  <meta name="description" content="Destine broker intermediază asigurări de viață, auto, proprietate, sănătate și pentru afaceri. Soluții personalizate pentru fiecare client din România." />
+  <meta property="og:title" content="Servicii | Destine broker" />
+  <meta property="og:description" content="Destine broker intermediază asigurări de viață, auto, proprietate, sănătate și pentru afaceri. Soluții personalizate pentru fiecare client din România." />
+  <meta property="og:image" content="https://i.pinimg.com/1200x/57/9c/79/579c794e59c968ee4bbd2e570954ec44.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1E3A8A",
+            secondary: "#FACC15",
+            accent: "#152a6e",
+            light: "#f5f5f5",
+            dark: "#0c0e13",
+          },
+          backgroundImage: {
+            "dark-radial-right": "radial-gradient(at center right, #152a6e 10%, #020307 75%)",
+            "dark-radial-left": "radial-gradient(at center left, #152a6e 10%, #020307 75%)",
+            "dark-radial-top": "radial-gradient(at top center, #152a6e 10%, #020307 75%)",
+            "dark-radial-bottom": "radial-gradient(at bottom center, #152a6e 10%, #020307 75%)",
+            "dark-silver-radial": "radial-gradient(at center, #1a1a1a 10%, #2a2a2a 90%)",
+            "card-dark": "linear-gradient(180deg, #1a1f2b 0%, #0c0e13 100%)",
+            "card-dark-hover": "linear-gradient(180deg, #2a3040 0%, #1a1f2b 100%)",
+            "primary-blend": "linear-gradient(135deg, #1E3A8A 0%, #020307 100%)",
+            "accent-blend": "linear-gradient(135deg, #152a6e 0%, #000000 100%)",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-dark text-light">
+
+  <!-- NAVBAR -->
+  <nav id="main-navbar" class="navbar-glass fixed top-0 left-0 right-0 z-50 transition-transform duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html">
+          <img src="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" alt="Destine broker Logo" class="h-10 w-auto" />
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="text-white hover:text-secondary transition-colors font-medium">Acasă</a>
+          <a href="about.html" class="text-white hover:text-secondary transition-colors font-medium">Despre</a>
+          <a href="services.html" class="text-secondary font-semibold hover:text-secondary transition-colors">Servicii</a>
+          <a href="contact.html" class="text-white hover:text-secondary transition-colors font-medium">Contact</a>
+          <a href="contact.html" class="btn-secondary text-sm px-5 py-2 rounded-lg">Obține ofertă</a>
+        </div>
+        <button id="hamburger-btn" class="md:hidden text-white focus:outline-none" aria-label="Meniu" aria-expanded="false">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="md:hidden pb-4">
+        <a href="index.html" class="block py-2 px-3 text-white hover:text-secondary">Acasă</a>
+        <a href="about.html" class="block py-2 px-3 text-white hover:text-secondary">Despre</a>
+        <a href="services.html" class="block py-2 px-3 text-secondary font-semibold">Servicii</a>
+        <a href="contact.html" class="block py-2 px-3 text-white hover:text-secondary">Contact</a>
+        <a href="contact.html" class="block mt-2 mx-3 btn-secondary text-center text-sm rounded-lg">Obține ofertă</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-5xl md:text-6xl font-black text-white mb-4 fade-in">Serviciile <span class="text-secondary">Noastre</span></h1>
+      <p class="text-white/70 text-xl max-w-2xl mx-auto fade-in">Intermediem toate tipurile de asigurări – soluții complete pentru persoane fizice și juridice din toată România.</p>
+    </div>
+  </header>
+
+  <!-- FEATURED SERVICE -->
+  <section class="py-20 bg-dark-radial-top">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="card-dark-bg rounded-2xl p-10 md:p-16 fade-in" style="border: 1px solid rgba(250,204,21,0.2);">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <span class="inline-block bg-secondary text-dark text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full mb-5">Serviciu emblematic</span>
+            <h2 class="text-4xl font-black text-white mb-5">Consultanță completă în asigurări</h2>
+            <p class="text-white/70 leading-relaxed mb-6">
+              Indiferent dacă ești o persoană fizică ce caută protecție pentru familie sau o companie care dorește să-și gestioneze riscurile, echipa Destine Broker îți oferă o analiză completă și o soluție adaptată perfect nevoilor tale.
+            </p>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center gap-3 text-white/80"><span class="text-secondary text-lg">✓</span> Analiză gratuită a nevoilor de asigurare</li>
+              <li class="flex items-center gap-3 text-white/80"><span class="text-secondary text-lg">✓</span> Comparație obiectivă între toate companiile de asigurare</li>
+              <li class="flex items-center gap-3 text-white/80"><span class="text-secondary text-lg">✓</span> Asistență la daune pe toată durata poliței</li>
+              <li class="flex items-center gap-3 text-white/80"><span class="text-secondary text-lg">✓</span> Reînnoire automată și notificări la scadență</li>
+            </ul>
+            <a href="contact.html" class="btn-secondary px-8 py-3 rounded-lg font-bold">Solicită consultanță gratuită</a>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="card-dark-bg p-5 rounded-xl text-center">
+              <div class="text-3xl mb-3">❤️</div>
+              <p class="text-white font-semibold text-sm">Viață</p>
+            </div>
+            <div class="card-dark-bg p-5 rounded-xl text-center">
+              <div class="text-3xl mb-3">🚗</div>
+              <p class="text-white font-semibold text-sm">Auto</p>
+            </div>
+            <div class="card-dark-bg p-5 rounded-xl text-center">
+              <div class="text-3xl mb-3">🏠</div>
+              <p class="text-white font-semibold text-sm">Proprietate</p>
+            </div>
+            <div class="card-dark-bg p-5 rounded-xl text-center">
+              <div class="text-3xl mb-3">🏥</div>
+              <p class="text-white font-semibold text-sm">Sănătate</p>
+            </div>
+            <div class="card-dark-bg p-5 rounded-xl text-center col-span-2">
+              <div class="text-3xl mb-3">💼</div>
+              <p class="text-white font-semibold text-sm">Afaceri</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES GRID -->
+  <section class="py-20 bg-dark-radial-bottom">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14 fade-in">
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-4">Toate tipurile de asigurări</h2>
+        <p class="text-white/60 text-lg max-w-xl mx-auto">Acoperire completă pentru orice risc, adaptată nevoilor fiecărui client.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Asigurări de Viață -->
+        <div class="card-dark-bg p-8 fade-in rounded-2xl">
+          <div class="w-14 h-14 rounded-xl bg-primary/30 flex items-center justify-center text-3xl mb-5">❤️</div>
+          <h3 class="text-xl font-bold text-white mb-3">Asigurări de Viață</h3>
+          <p class="text-white/65 leading-relaxed mb-4">Protejăm ce ai mai de preț – familia ta. Asigurările de viață oferă protecție financiară în caz de deces, invaliditate sau boli grave, dar și soluții de economisire pe termen lung. Comparăm ofertele tuturor asigurătorilor pentru a-ți găsi cea mai bună soluție.</p>
+          <ul class="space-y-1 mb-5">
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare de deces și invaliditate</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare mixtă (protecție + economisire)</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare de boli critice</li>
+          </ul>
+          <a href="contact.html" class="text-secondary font-semibold text-sm hover:underline">Solicită ofertă →</a>
+        </div>
+
+        <!-- Asigurări Auto -->
+        <div class="card-dark-bg p-8 fade-in rounded-2xl">
+          <div class="w-14 h-14 rounded-xl bg-primary/30 flex items-center justify-center text-3xl mb-5">🚗</div>
+          <h3 class="text-xl font-bold text-white mb-3">Asigurări Auto</h3>
+          <p class="text-white/65 leading-relaxed mb-4">De la RCA obligatoriu la CASCO complet, te ajutăm să găsești cea mai bună acoperire pentru vehiculul tău la cel mai competitiv preț din piață. Colaborăm cu toate companiile autorizate și negociem în interesul tău.</p>
+          <ul class="space-y-1 mb-5">
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> RCA – Asigurare obligatorie auto</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> CASCO – Asigurare completă vehicul</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare Carte Verde (voiaj)</li>
+          </ul>
+          <a href="contact.html" class="text-secondary font-semibold text-sm hover:underline">Solicită ofertă →</a>
+        </div>
+
+        <!-- Asigurări de Proprietate -->
+        <div class="card-dark-bg p-8 fade-in rounded-2xl">
+          <div class="w-14 h-14 rounded-xl bg-primary/30 flex items-center justify-center text-3xl mb-5">🏠</div>
+          <h3 class="text-xl font-bold text-white mb-3">Asigurări de Proprietate</h3>
+          <p class="text-white/65 leading-relaxed mb-4">Locuința ta reprezintă probabil cel mai valoros bun. Protejează-o împotriva incendiilor, inundațiilor, cutremurelor și altor riscuri prin polițe de locuință adaptate. Include atât PAD obligatoriu cât și asigurare facultativă extinsă.</p>
+          <ul class="space-y-1 mb-5">
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> PAD – Asigurare obligatorie locuință</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare facultativă extinsă</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare bunuri și conținut</li>
+          </ul>
+          <a href="contact.html" class="text-secondary font-semibold text-sm hover:underline">Solicită ofertă →</a>
+        </div>
+
+        <!-- Asigurări de Sănătate -->
+        <div class="card-dark-bg p-8 fade-in rounded-2xl">
+          <div class="w-14 h-14 rounded-xl bg-primary/30 flex items-center justify-center text-3xl mb-5">🏥</div>
+          <h3 class="text-xl font-bold text-white mb-3">Asigurări de Sănătate</h3>
+          <p class="text-white/65 leading-relaxed mb-4">Asigurările private de sănătate îți oferă acces rapid la servicii medicale de calitate, fără liste de așteptare. Acoperim consultații, investigații, spitalizare și tratamente în cele mai bune clinici private din România.</p>
+          <ul class="space-y-1 mb-5">
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare medicală privată individuală</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare medicală colectivă (angajați)</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare de călătorie internațională</li>
+          </ul>
+          <a href="contact.html" class="text-secondary font-semibold text-sm hover:underline">Solicită ofertă →</a>
+        </div>
+
+        <!-- Asigurări pentru Afaceri -->
+        <div class="card-dark-bg p-8 fade-in rounded-2xl">
+          <div class="w-14 h-14 rounded-xl bg-primary/30 flex items-center justify-center text-3xl mb-5">💼</div>
+          <h3 class="text-xl font-bold text-white mb-3">Asigurări pentru Afaceri</h3>
+          <p class="text-white/65 leading-relaxed mb-4">Orice afacere are riscuri specifice. Oferim soluții complete de asigurare pentru companii: de la protecția activelor și răspundere civilă profesională, până la asigurarea personalului și continuitate în afaceri.</p>
+          <ul class="space-y-1 mb-5">
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Răspundere civilă profesională și generală</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare active și proprietăți comerciale</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare flotă auto și personal</li>
+          </ul>
+          <a href="contact.html" class="text-secondary font-semibold text-sm hover:underline">Solicită ofertă →</a>
+        </div>
+
+        <!-- Asigurări de Călătorie -->
+        <div class="card-dark-bg p-8 fade-in rounded-2xl">
+          <div class="w-14 h-14 rounded-xl bg-primary/30 flex items-center justify-center text-3xl mb-5">✈️</div>
+          <h3 class="text-xl font-bold text-white mb-3">Asigurări de Călătorie</h3>
+          <p class="text-white/65 leading-relaxed mb-4">Călătorește fără griji oriunde în lume. Polițele noastre de călătorie acoperă urgențele medicale, anularea zborurilor, pierderea bagajelor și alte incidente neașteptate, la prețuri accesibile.</p>
+          <ul class="space-y-1 mb-5">
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Asigurare medicală de urgență în străinătate</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Anulare și întrerupere călătorie</li>
+            <li class="text-white/50 text-sm flex items-center gap-2"><span class="text-secondary">→</span> Pierdere bagaje și documente</li>
+          </ul>
+          <a href="contact.html" class="text-secondary font-semibold text-sm hover:underline">Solicită ofertă →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK PROCESS -->
+  <section class="py-20 bg-dark-radial-top">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14 fade-in">
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-4">Cum lucrăm</h2>
+        <p class="text-white/60 text-lg max-w-xl mx-auto">Un proces simplu și transparent, pus la punct în 18 ani de experiență.</p>
+      </div>
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-0 md:gap-0">
+
+        <div class="flex-1 fade-in text-center px-4 pb-8 md:pb-0">
+          <div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-2xl font-black text-white mx-auto mb-4">1</div>
+          <h3 class="text-white font-bold text-lg mb-2">Consultare</h3>
+          <p class="text-white/55 text-sm leading-relaxed">Ne contactezi și un consultant dedicat analizează nevoile și situația ta financiară.</p>
+        </div>
+
+        <div class="hidden md:block step-connector"></div>
+
+        <div class="flex-1 fade-in text-center px-4 pb-8 md:pb-0">
+          <div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-2xl font-black text-white mx-auto mb-4">2</div>
+          <h3 class="text-white font-bold text-lg mb-2">Analiză & Oferte</h3>
+          <p class="text-white/55 text-sm leading-relaxed">Comparăm ofertele de la toate companiile autorizate și îți prezentăm cele mai bune variante.</p>
+        </div>
+
+        <div class="hidden md:block step-connector"></div>
+
+        <div class="flex-1 fade-in text-center px-4 pb-8 md:pb-0">
+          <div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-2xl font-black text-white mx-auto mb-4">3</div>
+          <h3 class="text-white font-bold text-lg mb-2">Contractare</h3>
+          <p class="text-white/55 text-sm leading-relaxed">Alegi soluția potrivită, semnăm contractul și polița intră în vigoare imediat.</p>
+        </div>
+
+        <div class="hidden md:block step-connector"></div>
+
+        <div class="flex-1 fade-in text-center px-4">
+          <div class="w-16 h-16 rounded-full bg-secondary flex items-center justify-center text-2xl font-black text-dark mx-auto mb-4">4</div>
+          <h3 class="text-white font-bold text-lg mb-2">Suport Continuu</h3>
+          <p class="text-white/55 text-sm leading-relaxed">Rămânem alături de tine pe toată durata poliței, inclusiv la dosarele de daune.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SERVICES -->
+  <section class="py-20 bg-primary-blend">
+    <div class="max-w-4xl mx-auto px-4 text-center fade-in">
+      <h2 class="text-4xl md:text-5xl font-black text-white mb-6">Ai nevoie de serviciile noastre?</h2>
+      <p class="text-white/80 text-lg mb-10 max-w-2xl mx-auto">Contactează un consultant Destine Broker și primește o ofertă personalizată, complet gratuită, în mai puțin de 24 de ore.</p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="contact.html" class="btn-secondary px-10 py-4 rounded-lg font-bold text-lg">Obține ofertă gratuită</a>
+        <a href="tel:0746685556" class="btn-primary px-10 py-4 rounded-lg text-lg border border-white/30">📞 Sună acum</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark-radial-bottom pt-16 pb-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+        <div>
+          <img src="https://akiojiswhqnjiuwdciof.supabase.co/storage/v1/object/public/site-images/0ca292a6-0eef-469c-bbee-56e2863c3ad8/1776786845739.png" alt="Destine broker Logo" class="h-10 w-auto mb-4" />
+          <p class="text-white/50 text-sm leading-relaxed">Broker de asigurări de rang național, locul 2 în România. Protejăm oamenii și afacerile cu soluții personalizate.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Navigare rapidă</h4>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Acasă</a></li>
+            <li><a href="about.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Despre noi</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Servicii</a></li>
+            <li><a href="contact.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Servicii</h4>
+          <ul class="space-y-2">
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Viață</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări Auto</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Proprietate</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări de Sănătate</a></li>
+            <li><a href="services.html" class="text-white/60 hover:text-secondary text-sm transition-colors">Asigurări pentru Afaceri</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wider">Contact & Social</h4>
+          <ul class="space-y-2 mb-5">
+            <li class="text-white/60 text-sm">📍 Str Rulmentului, nr 4a</li>
+            <li><a href="tel:0746685556" class="text-white/60 hover:text-secondary text-sm transition-colors">📞 0746 685 556</a></li>
+            <li><a href="mailto:Stefan.puntea@destine-broker.ro" class="text-white/60 hover:text-secondary text-sm transition-colors break-all">✉️ Stefan.puntea@destine-broker.ro</a></li>
+            <li class="text-white/60 text-sm">🕐 Luni-Vineri 09:00 – 17:00</li>
+          </ul>
+          <div class="flex gap-3">
+            <a href="https://www.facebook.com/destinebroker/" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full flex items-center justify-center hover:scale-110 transition-transform" style="background:#1877F2">
+              <svg class="w-4 h-4" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-white/40 text-xs">© 2024 Destine broker. Toate drepturile rezervate.</p>
+        <div class="flex flex-wrap gap-4 text-xs">
+          <a href="gdpr.html" class="text-white/40 hover:text-secondary transition-colors">GDPR</a>
+          <a href="cookies.html" class="text-white/40 hover:text-secondary transition-colors">Cookies</a>
+          <a href="termeni.html" class="text-white/40 hover:text-secondary transition-colors">Termeni și Condiții</a>
+          <a href="https://anpc.ro/" target="_blank" rel="noopener noreferrer" class="text-white/40 hover:text-secondary transition-colors">A.N.P.C</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-actions">
+    <a href="tel:0746685556" class="fab-btn fab-phone" aria-label="Sună acum">
+      <svg class="w-5 h-5" fill="white" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      <span class="fab-tooltip">Sună acum</span>
+    </a>
+    <a href="https://wa.me/0746685556" target="_blank" rel="noopener noreferrer" class="fab-btn fab-whatsapp" aria-label="WhatsApp">
+      <svg class="w-5 h-5" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="fab-tooltip">WhatsApp</span>
+    </a>
+  </div>
+
+  <button id="back-to-top" aria-label="Înapoi sus">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+  </button>
+
+  <script src="main.js"></script>
+
+<!-- SiteForge Contact Form -->
+<script>
+(function(){
+  var WH="https://n8n.midasplatform.ro/webhook/siteforge-contact";
+  var CT="eyJwYXlsb2FkIjoie1wiZW1haWxcIjpcInB1bnRlYXN0ZWZhbkBnbWFpbC5jb21cIixcImJ1c2luZXNzTmFtZVwiOlwiRGVzdGluZSBicm9rZXJcIixcInNpdGVJZFwiOlwiNTU2YmU5NTYtNzlkNS00ZDgxLWI0YzktNTczNjRmN2M1NDRiXCJ9IiwiaG1hYyI6IjFmYzVkMTg1YTg5NjAwMjJhZTI3YjU0M2ZkOTY1ODRlM2JiNzhiZTdhMGIwMWE1MDQ5Y2M1NDdmZTI3ZjdlZmUifQ==";
+  function init(){
+    document.querySelectorAll('form').forEach(function(form){
+      if(!form.querySelector('input[type="email"],input[name="email"]'))return;
+      if(form.dataset.sfDone)return;
+      form.dataset.sfDone='1';
+      form.dataset.sfTime=Date.now().toString();
+      form.addEventListener('submit',function(e){
+        e.preventDefault();
+        var fd=new FormData(form),data={submission_time:form.dataset.sfTime||Date.now().toString(),contactToken:CT};
+        fd.forEach(function(v,k){data[k]=v;});
+        // Fallback: collect by input type when name attributes are missing
+        if(!data.name){var ni=form.querySelector('input[name*="name"],input[name*="num"],input[type="text"]');if(ni&&ni.value.trim())data.name=ni.value.trim();}
+        if(!data.email){var ei=form.querySelector('input[type="email"]');if(ei&&ei.value.trim())data.email=ei.value.trim();}
+        if(!data.phone&&!data.telefon){var pi=form.querySelector('input[type="tel"]');if(pi&&pi.value.trim())data.phone=pi.value.trim();}
+        if(!data.message&&!data.mesaj){var ta=form.querySelector('textarea');if(ta&&ta.value.trim())data.message=ta.value.trim();}
+        var btn=form.querySelector('button[type="submit"],button:last-of-type');
+        var orig=btn?btn.innerHTML:'';
+        if(btn){btn.disabled=true;btn.innerHTML='Se trimite...';}
+        fetch(WH,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+          .then(function(r){return r.json();})
+          .then(function(res){
+            if(res.success){
+              form.innerHTML='<div style="text-align:center;padding:2rem;color:#10b981;font-size:1.1rem">✓ '+(res.message||'Mesaj trimis!')+'</div>';
+            }else{
+              if(btn){btn.disabled=false;btn.innerHTML=orig;}
+              alert(res.message||'Eroare la trimitere. Încercați din nou.');
+            }
+          })
+          .catch(function(){
+            if(btn){btn.disabled=false;btn.innerHTML=orig;}
+            alert('Eroare de conexiune. Verificați internetul și încercați din nou.');
+          });
+      });
+    });
+  }
+  document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
+})();
+</script>
+</body>
+</html>
